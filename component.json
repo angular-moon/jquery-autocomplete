@@ -1,0 +1,14 @@
+{
+    "version": "2.4.1",
+    "description": "A jQuery autocomplete plugin",
+    "name": "jquery-autocomplete",
+    "main": "jquery.autocomplete.js",
+    "dependencies": [
+        "jquery"
+    ],
+     "shim": {
+        "jquery.autocomplete.js": {
+            "deps": ["jquery", "jquery.autocomplete.css"]
+        }
+    }
+}
